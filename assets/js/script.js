@@ -19,7 +19,7 @@ function api(data){
     document.getElementById('cured').innerHTML = `<span class='number'>${object.cureds}</span>`
     document.getElementById('infect').innerHTML = `<span class='number'>${object.infects}</span>`
     document.getElementById('death').innerHTML = `<span class='number'>${object.deaths}</span>`
-    document.getElementById('jumlah').innerHTML = `<span class='number'>${object.deaths + object.infects}</span>`
+    document.getElementById('jumlah').innerHTML = `<span class='number'>${object.cureds + object.deaths + object.infects}</span>`
 }
 
 function charts(data){
